@@ -1,0 +1,19 @@
+* {
+	/* border: 2px solid red; */
+	margin: 0px;
+	padding: 0px;
+}
+
+.one, .two, .three {
+	display: flex;
+	width: 27%;
+	padding: 10px;
+	float: left;
+	text-align: stretch;
+	flex-wrap: wrap;
+}
+
+p {
+	display: block;
+	display: flex;
+}
