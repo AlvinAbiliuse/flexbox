@@ -30,7 +30,8 @@ form {
 	border: 1px solid #848484;
 	padding: 10px;
 	flex-wrap: wrap;
-	width: 600px;
+	max-width: 600px;
+	margin: 50px;
 	
 }
 .input {
@@ -64,7 +65,11 @@ form {
 	cursor: pointer;
 }
 
-
+@media (max-width: 600px) {
+	form {
+		margin: 10px;
+	}
+}
 
 
 
